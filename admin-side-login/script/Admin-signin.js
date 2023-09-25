@@ -7,13 +7,13 @@ button.onclick = () => {
 };
 
 let sendData = async () => {
-  const MailId = "rahul1905.sk@gmail.com";
-  let Pass = "12345";
+  const MailId = "example@gmail.com";
+  let Pass = "admin";
   let dataToSend = {
     MailId,
     Pass,
   };
-  let promise = await fetch("https://glorious-robe-calf.cyclic.app/admin_data", {
+  let promise = await fetch("https://mm-money-mingle.onrender.com/user/1", {
     method: "POST",
     body: JSON.stringify(dataToSend),
     headers: {
@@ -24,7 +24,7 @@ let sendData = async () => {
 const validate = async (mail, pass) => {
   let MailId;
   let Pass;
-  let promise = await fetch("https://glorious-robe-calf.cyclic.app/admin_data");
+  let promise = await fetch("https://mm-money-mingle.onrender.com/user/1");
   let data = await promise.json();
   data.forEach((el) => {
     MailId = el.MailId;
@@ -35,7 +35,7 @@ const validate = async (mail, pass) => {
     if (pass == Pass) {
       alert("login Sucessfull");
       sessionStorage.setItem("Admin-login", JSON.stringify(DetailsArrAdmin));
-      textTospeech(" Happy to see you back Rahul")
+      textTospeech(" Happy to see you back Gauri")
       location.href = "../admin-database/dashboard.html";
     } else {
       alert("Invalid Password");
