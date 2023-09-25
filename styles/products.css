@@ -1,0 +1,140 @@
+* {
+    margin : 0px;
+    padding: 0px;
+  }
+
+  #home_bar{
+    display: flex;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 100px; 
+    font-family: sans-serif;
+  }
+  #homebar_2{
+    text-decoration: none;
+  }
+  #slash{
+    padding: 0px 10px 0px 10px;
+  }
+  #category_name{
+    margin-left: 97px;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    font-family: sans-serif;
+  }
+  #bag {
+    display: flex;
+    width : 90%;
+    margin : auto;
+    font-family: sans-serif;
+   
+  }
+  
+  #ra-one{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: -100px;
+    margin-top: 50px;
+    font-family: sans-serif;
+  }
+  #sortPrice1{
+    margin-bottom: 100px;
+  }
+  #sortPrice{
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  #ra {
+    width : 20%;
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    background-color: white;
+
+  }
+  #filter{
+      margin-bottom: 20px;
+      color: whitesmoke;
+  }
+ #filterVenue{
+   font-size: 18px;
+    width : 70%;
+   
+    background-color: whitesmoke;
+    padding: 10px;
+    
+  }
+  #ra>select{
+    
+    font-size: 18px;
+    width : 70%;
+    margin-top: 50px;
+    background-color:whitesmoke;
+
+    padding: 10px;
+  
+  }
+ 
+  .stars::before {
+    content: "\f005";
+    font-family: "fontawesome";
+    color: rgb(255, 167, 2);
+  }
+  
+#container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.item-card {
+  width: 300px;
+   margin: 30px; 
+  text-align: center;
+  height:500px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px;
+  margin:20px;
+
+
+}
+.item-card > img {
+  width: 260px;
+  height:400px;
+  padding-bottom:10px;
+
+}
+
+.item-card:hover {
+  opacity: 0.7;
+  cursor:pointer;
+  
+}
+.item-card>h4::before{
+  content: "Rs. ";
+}
+
+.item-card > h4 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#anker{
+  
+  font-size: 15px;
+  width : 100%;
+  background-color:white;
+
+  padding: 10px;
+
+}
+#anker>p>a{
+  text-decoration:none;
+  color:black;
+
+  
+}
+#anker>p{
+  margin-bottom:10px
+}
