@@ -1,21 +1,22 @@
-# bewakoof-clone
+# BeCool : 
 
-https://github.com/Rahul1905-sk/mellow-sidewalk-9952
+### Repo Link :  [Repo](https://github.com/gitusergb/becool)
 
-## Deployed Link
-https://mellow-sidewalk-9952.vercel.app/
+
+### Deployed Link : [BeCool](https://mellow-sidewalk-9952.vercel.app/)
 
 
 ### Bewakoof_Clone
 
-Bewakoof.com is an E-Commerce website, where  could buy a varities of clothes of different category. This is the Clone of Bewakoof.com which was given by Masai school during the unit-3 curriculm. We are 4 members in the project team Rahul, Gauri, Nitish, and Anukul. We had taken the challenge to complete the project in 5days and successfully completed in in a deadline time..
+Bewakoof.com is an E-Commerce website, where one could buy a varities of clothes of different category. This is the Clone of Bewakoof.com which was given as cource practice assignment during the curriculm. I had taken the challenge to complete the project in 5days and successfully completed in in a given time .
 
-## Built with
+## Tech-Stack
 HTML
 CSS
 JS DOM
 LocalStorage
 Local Backend Json-Server
+
 
 ## Libraries used
 Font awesome
@@ -39,12 +40,7 @@ Register Customer Details
 Order Details of Customer
 Implemented all the above said functionalities using LocalStorage, and enhanced dynamic flow of all data
 
-## Tech-Stack
-HTML,
-CSS,
-JS DOM,
-LocalStorage,
-Local Backend Json-Server
+
 
 
 
